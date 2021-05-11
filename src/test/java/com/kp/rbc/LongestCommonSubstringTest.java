@@ -1,3 +1,6 @@
+package com.kp.rbc;
+
+import com.kp.rbc.LongestCommonSubstring;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
