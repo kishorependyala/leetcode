@@ -15,6 +15,7 @@ public abstract class StackWrapperForMax<V> {
     public abstract int compareTo(V value1, V value2);
 
     public void push(V i) {
+
         stack.push(i);
         if (maxStack.isEmpty() || compareTo(i,maxStack.peek()) <= 0) {
             maxStack.push(i);
